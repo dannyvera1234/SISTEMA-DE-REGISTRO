@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ITask } from 'src/app/models/interfaces/Task.interfece';
 
 @Component({
   selector: 'app-homepage',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent {
+
+  
 
 }
